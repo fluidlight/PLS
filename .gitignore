@@ -1,0 +1,11 @@
+# This GitHub repository is documentation-only.
+# Windows binaries are published as GitHub Release assets, not in git.
+
+*
+!.gitignore
+!LICENSE
+!README.md
+!CITATION.cff
+!assets/
+!assets/**
+!assets/.gitkeep

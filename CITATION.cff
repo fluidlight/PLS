@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: If you use Positron Lab Suite, please cite it as below.
+title: "Positron Lab Suite: A comprehensive software suite for integrated positron annihilation spectroscopy data analysis"
+version: "2026"
+date-released: "2026-09-02"
+url: "https://github.com/fluidlight/pls"
+repository-code: "https://github.com/fluidlight/pls"
+license: LicenseRef-AllRightsReserved
+authors:
+  - family-names: Liu
+    given-names: Ming
+    email: mliu4@ncsu.edu
+    affiliation: "Department of Nuclear Engineering, North Carolina State University, Raleigh, NC 27695, USA"
+keywords:
+  - positron annihilation spectroscopy
+  - PALS
+  - Doppler broadening
+  - coincidence Doppler broadening
+  - variable-energy positrons
+  - defect analysis
+preferred-citation:
+  type: article
+  title: "Positron Lab Suite: A comprehensive software suite for integrated positron annihilation spectroscopy data analysis"
+  authors:
+    - family-names: Liu
+      given-names: Ming
+  year: 2026
+  notes: Update this block with the journal name, volume, and DOI after the paper is accepted.
