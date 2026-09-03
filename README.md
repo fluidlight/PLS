@@ -35,6 +35,15 @@ Keep **`PLS2026.exe`** and the **`_internal`** folder together. Moving only the 
 
 Windows SmartScreen or antivirus software may warn about an unsigned PyInstaller build. If you downloaded this zip from the official Release page, choose **More info → Run anyway**. Adding an exclusion for the unzipped folder avoids repeated scans.
 
+## Example data
+
+Sample spectra for trying the software are in [`Example Data/`](Example%20Data/):
+
+- **PALStudio** — synthetic lifetime spectrum (`Synthetic_Spectrum.dat`) and a polymer spectrum (`polymer.Spe`)
+- **DBStudio** — slow-positron beam energy series (`DBStudio/Beam runs/`) and repeated Si spectra for batch/live monitoring (`DBStudio/Repeated runs/`)
+
+Load these files from the corresponding Studio module after launching `PLS2026.exe`.
+
 ## Citation
 
 If you use Positron Lab Suite in published work, please cite the accompanying paper:

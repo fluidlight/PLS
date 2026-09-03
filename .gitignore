@@ -9,3 +9,5 @@
 !assets/
 !assets/**
 !assets/.gitkeep
+!Example Data/
+!Example Data/**
