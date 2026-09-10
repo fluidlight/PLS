@@ -8,6 +8,8 @@ This repository distributes a **compiled Windows executable**. Source code is no
 
 See [CHANGELOG.md](CHANGELOG.md) for what changed since v1.0.0.
 
+![Positron Lab Suite central hub](assets/hub.png)
+
 ## Modules
 
 The central hub launches four analysis modules:
@@ -20,6 +22,12 @@ The central hub launches four analysis modules:
 | **VEPStudio** | Variable-energy positron (VEP) depth profiling. Drift–diffusion fitting of *S*(*E*) / *W*(*E*), with a built-in multilayer simulator. |
 
 Shared tools include a multi-spectrum data hub, source-component estimator, *S*–*W* correlation analyzer, and project save/restore across modules.
+
+| PALStudio | DBStudio |
+|:---:|:---:|
+| ![PALStudio](assets/palstudio.png) | ![DBStudio](assets/dbstudio.png) |
+| **CDBStudio** | **VEPStudio** |
+| ![CDBStudio](assets/cdbstudio.png) | ![VEPStudio](assets/vepstudio.png) |
 
 ## Requirements
 
