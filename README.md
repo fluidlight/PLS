@@ -4,7 +4,9 @@ Windows desktop software for positron annihilation spectroscopy (PAS) data analy
 
 This repository distributes a **compiled Windows executable**. Source code is not included; it is available from the author on request.
 
-**Download:** [latest Release](https://github.com/fluidlight/pls/releases/latest)
+**Download:** [latest Release](https://github.com/fluidlight/pls/releases/latest) (`PLS2026-v1.0.1-windows.zip`)
+
+See [CHANGELOG.md](CHANGELOG.md) for what changed since v1.0.0.
 
 ## Modules
 
@@ -27,7 +29,7 @@ Shared tools include a multi-spectrum data hub, source-component estimator, *S*â
 
 ## Install and run
 
-1. From [Releases](https://github.com/fluidlight/pls/releases), download `PLS2026-v1.0.0-windows.zip`.
+1. From [Releases](https://github.com/fluidlight/pls/releases), download `PLS2026-v1.0.1-windows.zip`.
 2. Unzip the archive to a local folder (for example `C:\PLS2026`). Do not run the program from inside the zip file.
 3. Open the unzipped `PLS2026` folder and double-click **`PLS2026.exe`**.
 

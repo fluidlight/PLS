@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: If you use Positron Lab Suite, please cite it as below.
 title: "Positron Lab Suite: A comprehensive software suite for integrated positron annihilation spectroscopy data analysis"
-version: "2026"
-date-released: "2026-09-02"
+version: "1.0.1"
+date-released: "2026-09-10"
 url: "https://github.com/fluidlight/pls"
 repository-code: "https://github.com/fluidlight/pls"
 license: LicenseRef-AllRightsReserved
