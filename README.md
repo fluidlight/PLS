@@ -16,12 +16,14 @@ The central hub launches four analysis modules:
 
 | Module | Purpose |
 |---|---|
-| **PALStudio** | Positron annihilation lifetime spectroscopy (PALS). Discrete multi-exponential fitting (DeLTA) and continuum lifetime distributions (SIGMA / CONTIN). |
+| **PALStudio** | Positron annihilation lifetime spectroscopy (PALS). Discrete multi-exponential fitting (DeLTA) and continuum lifetime distributions (SIGMA). |
 | **DBStudio** | Doppler broadening spectroscopy (DBS). Energy calibration, background subtraction, and *S*/*W* parameter extraction, including batch and live monitoring. |
 | **CDBStudio** | Coincidence Doppler broadening (CDBS). List-mode / matrix processing, 1D momentum projections, and elemental fingerprint ratio curves. |
 | **VEPStudio** | Variable-energy positron (VEP) depth profiling. Drift–diffusion fitting of *S*(*E*) / *W*(*E*), with a built-in multilayer simulator. |
 
 Shared tools include a multi-spectrum data hub, source-component estimator, *S*–*W* correlation analyzer, and project save/restore across modules.
+
+The public Windows build ships DeLTA and SIGMA only. It does not include the legacy Fortran CONTIN or POSFIT (PFPOSFIT) engines.
 
 | PALStudio | DBStudio |
 |:---:|:---:|

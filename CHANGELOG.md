@@ -2,7 +2,7 @@
 
 ## v1.0.1 (2026-09-10)
 
-Windows executable. The user manual is not included (still in draft). Help → User Manual looks for `docs/PLS_User_Manual.pdf` beside the program; that file will be added in a later release.
+Windows executable. The user manual is not included (still in draft). Help → User Manual looks for `docs/PLS_User_Manual.pdf` beside the program; that file will be added in a later release. The public build does not include the legacy Fortran CONTIN or POSFIT (PFPOSFIT) engines; PALStudio discrete and continuum analysis use DeLTA and SIGMA.
 
 ### DBStudio
 - After batch, pick any file from the main-window dropdown and re-analyze it (same idea as PALStudio).
