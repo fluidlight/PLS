@@ -1,5 +1,23 @@
 # Changelog
 
+## v1.0.2 (2026-09-28)
+
+Windows executable. The user manual is still not included (draft only). Help → User Manual looks for `docs/PLS_User_Manual.pdf` beside the program. Public build engines are unchanged: DeLTA and SIGMA only (no CONTIN / POSFIT).
+
+### CDBStudio
+- Auto-align / drift: 2D background is fitted once on the full matrix; slices only realign `Project(M)`. The same `B` is subtracted after recombination (no per-slice scaling of `B` by slice/full counts).
+- 1D momentum spectra keep signed residuals: `Project(M) − Project(B)` with no clip-to-zero after recombination. Clipping negatives used to bias high-momentum ratio curves when a low-count spectrum was clipped more than a high-count one.
+- Adaptive rebinning / smoothing on ratio curves is view-only; the archival pointwise ratio stays on the original 1D grid.
+- Ratio export and display paths use the signed residual consistently (error bars stay non-negative magnitudes).
+
+### Suite
+- Plot Save as SVG/PDF: toolbar preloads matplotlib backends so Save works after 2D debug plots that use the Agg canvas.
+- README screenshots for the hub and each Studio (already on the docs branch; tied to this release).
+- README / changelog clarify that the public Windows build ships DeLTA and SIGMA only.
+
+### Packaging
+- Release zip is the frozen `PLS2026` folder only (`PLS2026.exe` + `_internal`). Source `.py` files are not included. CONTIN / POSFIT binaries are omitted from the public zip.
+
 ## v1.0.1 (2026-09-10)
 
 Windows executable. The user manual is not included (still in draft). Help → User Manual looks for `docs/PLS_User_Manual.pdf` beside the program; that file will be added in a later release. The public build does not include the legacy Fortran CONTIN or POSFIT (PFPOSFIT) engines; PALStudio discrete and continuum analysis use DeLTA and SIGMA.
