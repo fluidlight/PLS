@@ -3,12 +3,22 @@
 ## v1.0.2 (2026-09-28)
 
 Windows executable. The user manual is still not included (draft only). Help → User Manual looks for `docs/PLS_User_Manual.pdf` beside the program. Public build engines are unchanged: DeLTA and SIGMA only (no CONTIN / POSFIT).
+
+### Source intensity estimator (PALStudio)
+- The new estimator takes into account the absorption plus repeated sample-to-sample travel.
+- A searchable fill element list is added to the left of the atomic-number box; typing a symbol or name fills Z.
+
 ### PALStudio
 - The physical-variable window is the same shared dialog as DBStudio (nth-number spinner, sequence, and pattern extract).
 - The first batch window shows the restored file list, can add files from more than one folder, and marks each file fitted, new, or missing.
 - Already-fitted files are skipped unless Refit files that already have results is checked. With chaining on, the first new file starts from the last kept fit.
 - Bug fixed: after fitting only the new files, choosing an old file in the main-window list showed the SIGMA curve and dropped the spectrum and the DeLTA fit.
 - Bug fixed: A PALStudio batch window and a DBStudio batch window can both stay open. One no longer steals the click from the other.
+- Some minor bug fixes
+
+### DBStudio
+- Reloading a project restores calibration mode, peaks, energies, channel ranges, the 511 keV lock, manual gain and offset, skip-headers, background windows, source correction, the energy-window lock, and the last fit. An 8,000-channel spectrum no longer comes back with the default search windows.
+- The same batch-file list, incremental fit, taller first window, and shared assign-variables dialog as PALStudio.
 
 ### CDBStudio
 - Auto-align / drift: 2D background is fitted once on the full matrix; slices only realign `Project(M)`. The same `B` is subtracted after recombination (no per-slice scaling of `B` by slice/full counts).
@@ -43,6 +53,7 @@ Windows executable. The user manual is not included (still in draft). Help → U
 ### Suite
 - Help → User Manual opens the same `docs/PLS_User_Manual.pdf` in every Studio (manual to be added).
 - Plot Save includes SVG/PDF backends.
+- Opening an empty project clears the spectra, fits, and batch results still showing in open windows.
 
 ## v1.0.0 (2026-09-02)
 
