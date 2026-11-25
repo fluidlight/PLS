@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: If you use Positron Lab Suite, please cite it as below.
-title: "Positron Lab Suite: A comprehensive software suite for integrated positron annihilation spectroscopy data analysis"
+title: "Positron Lab Suite: A Comprehensive Software Suite for Integrated Positron Annihilation Spectroscopy Data Analysis"
 version: "1.0.2"
 date-released: "2026-09-28"
 url: "https://github.com/fluidlight/pls"
@@ -11,17 +11,43 @@ authors:
     given-names: Ming
     email: mliu4@ncsu.edu
     affiliation: "Department of Nuclear Engineering, North Carolina State University, Raleigh, NC 27695, USA"
+abstract: >-
+  Positron annihilation spectroscopy (PAS) has proved to be a highly sensitive and
+  non-destructive analytical technique for characterizing open-volume defects and
+  free-volume voids in materials for decades. Over the years, specialized
+  routines have been developed to analyze annihilation radiation in both time and
+  energy domains, yet most classical analysis codes were developed decades ago
+  and became challenging to run and maintain on modern operating systems.
+  Meanwhile, experimental workflows are often scattered among unrelated tools,
+  without a shared interface or cross-tool data exchange. To address these
+  limitations and lower the learning barrier, this paper presents Positron Lab
+  Suite (PLS), a comprehensive PAS data analysis platform built with a graphical
+  user interface and modern python packages. PLS comprises four major modules
+  that provide intuitive workflows for positron annihilation lifetime
+  spectroscopy (PALS), Doppler Broadening Spectroscopy (DBS), Coincidence DBS,
+  and variable-energy depth-profiling, together with automation and diagnostic
+  tools. Built-in simulators can generate synthetic PALS spectrum and
+  depth-profile data for testing fitting methods and evaluating their
+  reliability. In this paper, the architecture and functionalities of PLS are
+  discussed with validation through case studies.
 keywords:
-  - positron annihilation spectroscopy
-  - PALS
-  - Doppler broadening
-  - coincidence Doppler broadening
-  - variable-energy positrons
-  - defect analysis
+  - positron annihilation spectroscopy (PAS)
+  - positron annihilation lifetime spectroscopy (PALS)
+  - Doppler broadening spectroscopy (DBS)
+  - coincidence Doppler broadening spectroscopy (CDBS)
+  - variable-energy positron depth profiling (VEP)
+  - data analysis software
 preferred-citation:
   type: article
-  title: "Positron Lab Suite: A comprehensive software suite for integrated positron annihilation spectroscopy data analysis"
+  title: "Positron Lab Suite: A Comprehensive Software Suite for Integrated Positron Annihilation Spectroscopy Data Analysis"
   authors:
     - family-names: Liu
       given-names: Ming
+      email: mliu4@ncsu.edu
+      affiliation: "Department of Nuclear Engineering, North Carolina State University, Raleigh, NC 27695, USA"
+  journal: "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment"
   year: 2026
+  pages: "172273"
+  issn: "0168-9002"
+  doi: "10.1016/j.nima.2026.172273"
+  url: "https://www.sciencedirect.com/science/article/pii/S016890022600999X"
