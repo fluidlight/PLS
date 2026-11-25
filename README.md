@@ -60,7 +60,8 @@ Load these files from the corresponding Studio module after launching `PLS2026.e
 
 If you use Positron Lab Suite in published work, please cite the accompanying paper:
 
-> M. Liu, *Positron Lab Suite: A comprehensive software suite for integrated positron annihilation spectroscopy data analysis*, (2026). *[journal / DOI to be added]*
+> M. Liu, *Positron Lab Suite: A comprehensive software suite for integrated positron annihilation spectroscopy data analysis*, Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment,
+2026, 172273, ISSN 0168-9002, https://doi.org/10.1016/j.nima.2026.172273. (https://www.sciencedirect.com/science/article/pii/S016890022600999X)
 
 A `CITATION.cff` file is included in this repository.
 
